@@ -16,7 +16,7 @@
     grid-column: 1 / 3;
     grid-row: 1 / 3;
   }
-  .head-menu .head-menu-grid {
+  .head-menu {
     display: grid;
     grid-template-columns: 80px auto 70px 70px 70px;
     grid-gap: 10px;
