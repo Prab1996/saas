@@ -16,29 +16,21 @@
     grid-column: 1 / 3;
     grid-row: 1 / 3;
   }
-  .head-menu-grid {
+  .head-menu .head-menu-grid {
     display: grid;
     grid-template-columns: 80px auto 70px 70px 70px;
     grid-gap: 10px;
   }
   .hmg-logo {
-    justify-self: center;
-    align-self: center;
     grid-column: 0 / 2; 
   }
   .hmg-home {
-    justify-self: center;
-    align-self: center;
     grid-column: 2 / 4;
   }
   .hmg-about {
-    justify-self: center;
-    align-self: center;
     grid-column: 3 / 5;
   }
   .hmg-help {
-    justify-self: center;
-    align-self: center;
     grid-column: 4 / 6;
   }
 }
