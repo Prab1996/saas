@@ -1,14 +1,14 @@
 @media screen and (min-width:601px) {
   .main-grid {
     display: grid;
-    grid-template-columns: 150px 900px;
-    grid-template-rows: 50px 800px;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 50px auto;
     }
   .head-menu {
     grid-column: 1 / 3;
     grid-row: 1;
     display: grid;
-    grid-template-columns: auto 100px 100px 100px;
+    grid-template-columns: 100px auto 100px 100px 100px;
     grid-gap: 10px;
   }
   .side-menu {
@@ -22,13 +22,16 @@
   .head-menu .hmg-logo {
     grid-column: 1 / 2;
   }
-  .head-menu .hmg-home {
+  .head-menu .hmg-logo {
     grid-column: 2 / 3;
   }
-  .head-menu .hmg-about {
+  .head-menu .hmg-home {
     grid-column: 3 / 4;
   }
-  .head-menu .hmg-help {
+  .head-menu .hmg-about {
     grid-column: 4 / 5;
+  }
+  .head-menu .hmg-help {
+    grid-column: 5 / 6;
   }
 }
