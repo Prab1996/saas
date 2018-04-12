@@ -22,7 +22,7 @@
   .head-menu {
     display: grid;
     grid-template-columns: 100px auto 100px 100px 100px;
-    grid-gap: 10px;
+    grid-column-gap: 10px;
   }
   .head-menu .hmg-logo {
     grid-column: 1 / 2;
