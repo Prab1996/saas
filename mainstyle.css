@@ -1,10 +1,7 @@
-@media screen and (min-width:601px) {
-  html {
+html {
     background-color: #F2F2F2;
   }
-  body {
-    margin: 10px;
-  }
+@media screen and (min-width:601px) {
   .main-grid {
     display: grid;
     grid-template-columns: 150px auto;
@@ -29,11 +26,11 @@
     display: grid;
     grid-template-columns: 100px auto 100px 100px 100px;
     grid-gap: 10px;
-}
+  }
   .head-menu .hmg-logo {
     grid-column: 1 / 2;
   }
-  .head-menu .hmg-logo {
+  .head-menu .hmg-empty {
     grid-column: 2 / 3;
   }
   .head-menu .hmg-home {
@@ -44,5 +41,21 @@
   }
   .head-menu .hmg-help {
     grid-column: 5 / 6;
+  }
+  .side-menu {
+    grid-template: repeat(4 50px) / 150px ;
+    grid-gap: 10px;
+  }
+  .sm1 {
+    grid-row: 1/2;
+  }
+    .sm2 {
+    grid-row: 2/3;
+  }
+    .sm3 {
+    grid-row: 3/4;
+  }
+    .sm4 {
+    grid-row: 4/5;
   }
 }
